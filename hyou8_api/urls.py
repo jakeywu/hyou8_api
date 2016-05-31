@@ -22,7 +22,7 @@ from rest_framework import routers, serializers, viewsets
 class ProvinceCitySerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = ProvinceCity
-        fields = ('name', 'name')
+        fields = ('name', 'pid')
 
 
 # ViewSets define the view behavior.
